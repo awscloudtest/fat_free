@@ -18,7 +18,7 @@ gem 'will_paginate',       '>= 3.0.pre2'
 
 group :production do
 # gem "mysql2", "~> 0.2.7"
-  gem "pg", ">= 0.9.0"
+  gem "pg"
 end
 
 group :development, :test do
