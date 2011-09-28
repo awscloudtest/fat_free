@@ -7,7 +7,7 @@ gem 'rake',  '0.8.7'
 # ----------------------------------------------------------------------
 # gem "mysql2", "~> 0.2.7"
 # gem "sqlite3"
-  gem "pg", ">= 0.9.0"
+  gem "pg"
 
 gem 'authlogic',           '~> 3.0.3'
 gem 'acts_as_commentable', '>= 3.0.1'
@@ -16,7 +16,7 @@ gem 'sass',                '>= 3.1.1'
 gem 'paperclip',           '~> 2.3.3'
 gem 'will_paginate',       '>= 3.0.pre2'
 
-group :production do
+# group :production do
 # gem "mysql2", "~> 0.2.7"
 
 end
