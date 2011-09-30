@@ -17,8 +17,8 @@ gem 'paperclip',           '~> 2.3.3'
 gem 'will_paginate',       '>= 3.0.pre2'
 
 group :production do
-# gem "mysql2", "~> 0.2.7"
-  gem "pg"
+gem "mysql2", "~> 0.2.7"
+# gem "pg"
 end
 
 group :development, :test do
